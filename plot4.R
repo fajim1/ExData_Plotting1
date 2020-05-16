@@ -32,3 +32,4 @@ legend(1000,32,legend=c("Sub metering 1", "Sub metering 2","Sub metering 3"),
        col=c("black", "red",'blue'), cex=0.4)
 
 plot(pow$Time,pow$Global_reactive_power,type = 'l',xlab="Time",ylab = "Global Reactive power (kilowatts)")
+

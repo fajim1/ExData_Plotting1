@@ -16,3 +16,4 @@ lines(pow$Time,pow$Sub_metering_2,col='red')
 lines(pow$Time,pow$Sub_metering_3,col='blue')
 legend(1000,32,legend=c("Sub metering 1", "Sub metering 2","Sub metering 3"),
        col=c("black", "red",'blue'), lty=1:2, cex=0.8)
+
